@@ -6,11 +6,11 @@ class UselessGoCli < Formula
   license "MIT"
 
   def install
-    bin.install "simple-cli-tool"
+    bin.install "useless-go-cli"
   end
 
   test do
-    system "#{bin}/simple-cli-tool", "--version"
+    system "#{bin}/useless-go-cli", "--version"
   end
 end
 
